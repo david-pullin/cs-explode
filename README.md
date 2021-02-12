@@ -76,5 +76,5 @@ Namespace: Sprocket.Text.Explode
 | **StrictTextDelimiterPositioning** | bool | true | When enabled it is expected that the **Delimiters.TextDelimiter** (if present), it is positioned at then beginning and end of each field.  If disabled, any **Delimiters.TextDelimiter** will be processed as a delimiter regardless of its position. |
 | **StrictTextDelimiterPositioning AllowLeadingTrailingSpaces** | bool | true | When enabled will allow for leading and trailing spaces before and after the Text Delimiters. |
 | **AllowInsideDoubleTextDelimiters** | bool | true | When enabled, and when containted within text delimiters, allows for double instances of the **Delimiters.TextDelimiter** to <br>be processed as single instance content. |
-| **Delimiters** | [Delimiters](Sprocket.Text.Explode.Delimiters.html) | , and " | Which character or strings are being used for Field and Text Delimiters. |
+| **Delimiters** | [Delimiters](https://ict-man.me/sprocket/api/Sprocket.Text.Explode.Delimiters.html) | , and " | Which character or strings are being used for Field and Text Delimiters. |
 
