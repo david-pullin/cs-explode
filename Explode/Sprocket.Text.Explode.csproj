@@ -5,7 +5,26 @@
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
+
+    <PackageId>Sprocket.Text.Explode</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>davidpullin</Authors>
+    <Title>String Explode (Split) Class</Title>
+    <Description>Explode provides an extension function to the String class to split strings via a specified character or string.  Useful for processing Comma Delimited (CSV) content.</Description>
+    <PackageSummary>Explode provides an extension function to the String class to split strings via a specified character or string.  Useful for processing Comma Delimited (CSV) content.</PackageSummary>
+    <Copyright>© David Pullin 2021</Copyright>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageIcon>Sprocket.Text.Explode.jpg</PackageIcon>
+    <PackageTags>Text;Split;String;Explode</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageProjectUrl>https://ict-man.me/sprocket/api/Sprocket.Text.Explode.html</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/david-pullin/cs-explode</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
+  <ItemGroup>
+      <None Include="Sprocket.Text.Explode.jpg" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
